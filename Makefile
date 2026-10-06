@@ -7,7 +7,7 @@ SRC = src/main.c
 all: $(TARGET)
 
 $(TARGET): $(SRC)
- $(CC) $(CFLAGS) $(SRC) -o $(TARGET)
+	$(CC) $(CFLAGS) $(SRC) -o $(TARGET)
 
 clean:
- rm -f $(TARGET) src/*.o
+	rm -f $(TARGET) src/*.o
